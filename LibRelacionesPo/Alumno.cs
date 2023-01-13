@@ -14,23 +14,27 @@ namespace LibRelacionesPOO
             this.Nombre = Nombre;
 
         }
+
+        private string name;
         public string Nombre {
             get
             {
-                return Nombre;
+                return this.name;
             }
             set
             {
-                if (Nombre.Trim().Length < 1)
+                if (value.Trim().Length < 1)
                 {
                     throw new ArgumentException("Debe ingresar un nombre.");
                 }
-                else if (Nombre.Trim().Length > 50)
+                else if (value.Trim().Length > 50)
                 {
 
                     throw new ArgumentException("El nombre debe tener entre 1 y 50 caracteres.");
 
                 }
+
+                this.name = value;
             }
         }
         public Docente Docente { get; set; }

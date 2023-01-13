@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibRelacionesPOO", "LibRelacionesPOO\LibRelacionesPOO.csproj", "{CBD78D74-9B9E-4F77-8AC8-63E4C8F4BB43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{504EA72D-AD91-48C2-9834-FC9021E84E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibRelacionesPOO", "LibRelacionesPo\LibRelacionesPOO.csproj", "{0D371648-60C0-405D-8258-D994D1D3DDDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CBD78D74-9B9E-4F77-8AC8-63E4C8F4BB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CBD78D74-9B9E-4F77-8AC8-63E4C8F4BB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CBD78D74-9B9E-4F77-8AC8-63E4C8F4BB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CBD78D74-9B9E-4F77-8AC8-63E4C8F4BB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504EA72D-AD91-48C2-9834-FC9021E84E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504EA72D-AD91-48C2-9834-FC9021E84E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504EA72D-AD91-48C2-9834-FC9021E84E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504EA72D-AD91-48C2-9834-FC9021E84E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D371648-60C0-405D-8258-D994D1D3DDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D371648-60C0-405D-8258-D994D1D3DDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D371648-60C0-405D-8258-D994D1D3DDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D371648-60C0-405D-8258-D994D1D3DDDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
